@@ -1,0 +1,6 @@
+# Windows 批处理必须使用 CRLF 行尾：cmd.exe 按 CRLF 切行并维护文件偏移，
+# LF 行尾会导致回溯行首时偏移错位、行首前缀被吞，残余片段被当作命令执行。
+# 见 perf/jmeter/run.bat 的 LF 翻车案例（2026-08-11）。
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=LF
