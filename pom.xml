@@ -6,7 +6,7 @@
     <modules>
         <module>flyway-database-dm8</module>
     </modules>
-    <version>13.3.0</version>
+    <version>13.4.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>Flyway database support modules for third-party databases such as DaMeng (DM8, 达梦数据库).
     </description>
@@ -45,7 +45,7 @@
         <url>${project.url}</url>
         <connection>scm:git:git@github.com:maydear/flyway-database-support.git</connection>
         <developerConnection>scm:git:git@github.com:maydear/flyway-database-support.git</developerConnection>
-        <tag>13.3.0</tag>
+        <tag>12.11.0-SNAPSHOT</tag>
     </scm>
     <issueManagement>
         <system>GitHub</system>
