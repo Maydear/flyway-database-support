@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.github.maydear</groupId>
         <artifactId>flyway-database-support</artifactId>
-        <version>12.11.0-SNAPSHOT</version>
+        <version>13.3.0-SNAPSHOT</version>
     </parent>
     <artifactId>flyway-database-dm8</artifactId>
     <packaging>jar</packaging>

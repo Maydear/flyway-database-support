@@ -7,13 +7,13 @@
     <modules>
         <module>flyway-database-dm8</module>
     </modules>
-    <version>12.11.0-SNAPSHOT</version>
+    <version>13.3.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>Flyway database support modules for third-party databases such as DaMeng (DM8, 达梦数据库).
     </description>
     <properties>
         <java.version>17</java.version>
-        <flyway.version>12.11.0</flyway.version>
+        <flyway.version>13.3.0</flyway.version>
         <DmJdbcDriver11.version>8.1.5.45</DmJdbcDriver11.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
