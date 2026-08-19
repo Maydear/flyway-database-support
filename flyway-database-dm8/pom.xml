@@ -11,6 +11,26 @@
 
     <name>flyway-database-dm8</name>
     <description>Flyway database support for DaMeng Database (DM8, 达梦数据库).</description>
+    <url>https://github.com/maydear</url>
+    <scm>
+        <url>${project.url}</url>
+        <connection>scm:git:${project.url}/flyway-database-support.git</connection>
+        <developerConnection>scm:git:${project.url}/flyway-database-support.git</developerConnection>
+    </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>${project.url}/flyway-database-support/issues</url>
+    </issueManagement>
+
+    <developers>
+        <developer>
+            <name>kelvin</name>
+            <organization>Maydear</organization>
+            <organizationUrl>${project.url}</organizationUrl>
+            <url>${project.url}</url>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>org.flywaydb</groupId>

@@ -43,13 +43,13 @@
     <url>https://github.com/maydear</url>
     <scm>
         <url>${project.url}</url>
-        <connection>scm:git:git@github.com:maydear/flyway-database-support.git</connection>
-        <developerConnection>scm:git:git@github.com:maydear/flyway-database-support.git</developerConnection>
+        <connection>scm:git:${project.url}/flyway-database-support.git</connection>
+        <developerConnection>scm:git:${project.url}/flyway-database-support.git</developerConnection>
         <tag>12.11.0-SNAPSHOT</tag>
     </scm>
     <issueManagement>
         <system>GitHub</system>
-        <url>${project.url}/issues</url>
+        <url>${project.url}/flyway-database-support/issues</url>
     </issueManagement>
 
     <developers>
